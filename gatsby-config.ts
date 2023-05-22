@@ -12,8 +12,8 @@ const config: GatsbyConfig = {
   plugins: [{
     resolve: 'gatsby-source-contentful',
     options: {
-      "accessToken": "test_access_token",
-      "spaceId": ""
+      "accessToken": "w7qrspdtnZqsifl1DESruThFAeiucOE1UR-Xr7r9iO4",
+      "spaceId": "xt97fnak18pc"
     }
   }, "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", "gatsby-plugin-postcss", "gatsby-plugin-mdx", {
     resolve: 'gatsby-source-filesystem',
