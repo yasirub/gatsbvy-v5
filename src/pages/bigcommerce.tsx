@@ -1,10 +1,12 @@
 import * as React from "react"
 import { HeadFC, PageProps } from "gatsby";
 import NavBar from "../components/navbar";
+import LandingSection from "../components/landingsection";
 const BigCommercePage: React.FC<PageProps> = () => {
     return (
         <>
             <NavBar/>
+            <LandingSection/>
             <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
                 <div className="shrink-0">
                     <img className="h-12 w-12" src="/img/logo.svg" alt="ChitChat Logo" />
